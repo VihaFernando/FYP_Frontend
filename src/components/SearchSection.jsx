@@ -27,7 +27,7 @@ export default function SearchSection({ onSearch }) {
         onSearch(normalizedInput)
     }
 
-    const maxChars = 2000
+    const maxChars = 5000
 
     return (
         <motion.div
