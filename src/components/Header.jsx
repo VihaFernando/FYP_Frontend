@@ -21,7 +21,7 @@ export default function Header({ currentPage, onPageChange }) {
                         </div>
                         <div className="flex flex-col">
                             <h1 className="text-lg font-bold text-gray-900 tracking-tight leading-none">
-                                SupervisorMatch
+                                SmartSupervisor
                             </h1>
                             <p className="text-xs text-gray-500 font-medium hidden sm:block mt-0.5">
                                 Research Recommender
@@ -33,8 +33,8 @@ export default function Header({ currentPage, onPageChange }) {
                         <button
                             onClick={() => onPageChange('about')}
                             className={`flex items-center gap-2 text-sm font-medium transition-colors ${currentPage === 'about'
-                                    ? 'text-blue-600'
-                                    : 'text-gray-500 hover:text-gray-900'
+                                ? 'text-blue-600'
+                                : 'text-gray-500 hover:text-gray-900'
                                 }`}
                         >
                             <Info size={16} />
@@ -43,8 +43,8 @@ export default function Header({ currentPage, onPageChange }) {
                         <button
                             onClick={() => onPageChange('help')}
                             className={`flex items-center gap-2 text-sm font-medium transition-colors ${currentPage === 'help'
-                                    ? 'text-blue-600'
-                                    : 'text-gray-500 hover:text-gray-900'
+                                ? 'text-blue-600'
+                                : 'text-gray-500 hover:text-gray-900'
                                 }`}
                         >
                             <HelpCircle size={16} />

@@ -41,7 +41,7 @@ export default function About() {
                     transition={{ delay: 0.1 }}
                     className="mb-16"
                 >
-                    <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">About SupervisorMatch</h1>
+                    <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">About SmartSupervisor</h1>
                     <p className="text-lg text-gray-600">
                         Connecting students with the right supervisors using research-driven AI
                     </p>
@@ -56,7 +56,7 @@ export default function About() {
                 >
                     <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-6">Our Mission</h2>
                     <p className="text-gray-600 leading-relaxed text-lg">
-                        SupervisorMatch is designed to assist students in identifying suitable supervisors for final-year research projects in a fair and transparent manner. Unlike traditional manual selection, our system leverages institutional research data and advanced Natural Language Processing techniques to analyze student proposals and align them with supervisors' research expertise.
+                        SmartSupervisor is designed to assist students in identifying suitable supervisors for final-year research projects in a fair and transparent manner. Unlike traditional manual selection, our system leverages institutional research data and advanced Natural Language Processing techniques to analyze student proposals and align them with supervisors' research expertise.
                     </p>
                 </motion.section>
 
@@ -153,7 +153,7 @@ export default function About() {
                     className="text-center mt-12 text-gray-600 text-sm"
                 >
                     <p>
-                        SupervisorMatch is a research-driven system designed to support fair and transparent supervisor allocation in academic institutions.
+                        SmartSupervisor is a research-driven system designed to support fair and transparent supervisor allocation in academic institutions.
                     </p>
                 </motion.div>
             </div>
